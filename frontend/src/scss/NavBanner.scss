@@ -1,0 +1,24 @@
+$displayContainer:flex;
+$justifyContent: flex-end;
+$paddingContainer:3px;
+$backGroundColorContainer:whitesmoke;
+
+.nameBannerContainer{
+  display: $displayContainer;
+  gap: 5vw;
+  justify-content:$justifyContent;
+  background-color: $backGroundColorContainer;
+  padding:$paddingContainer;
+  font-weight: bolder;
+}
+.LoginCardLink{
+  padding-top: 20px;
+  display: flex;
+ justify-content: end ;
+}
+.signUpHeader{
+  color: whitesmoke;
+  padding:30px;
+  background-color: dodgerblue;
+  text-align: center;
+}
